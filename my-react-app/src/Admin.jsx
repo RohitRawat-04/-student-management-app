@@ -317,7 +317,8 @@ text-center">Logout</li>
       )}
 
       {/* MAIN CONTENT */}
-      <div className="w-full md:ml-72 overflow-y-auto relative z-10">
+     <div className={`w-full overflow-y-auto relative z-10 transition-all duration-300
+${isopen ? "ml-72" : "ml-0 md:ml-72"}`}>
 
         {/* NAVBAR */}
         <div className="h-20

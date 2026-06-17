@@ -141,7 +141,7 @@ backdrop-blur-2xl
 border-r border-white/10
 shadow-2xl
 transition-all duration-300 z-50
-${isopen ? "translate-x-0" : "-translate-x-full md:translate-x-0"}
+${isopen ? "translate-x-0" : "-translate-x-full "}
 `}
       >
          <h1 className="text-3xl font-bold p-6">

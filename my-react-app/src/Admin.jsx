@@ -135,14 +135,9 @@ axios.post(`${import.meta.env.VITE_API_URL}/api/logout`,{},
 
       {/* SIDEBAR */}
       <div
-        className={`fixed top-0 left-0 h-screen w-72 overflow-y-auto
-bg-white/5
-backdrop-blur-2xl
-border-r border-white/10
-shadow-2xl
-transition-all duration-300 z-50
-${isopen ? "translate-x-0" : "-translate-x-full "}
-`}
+         className={`fixed top-0 left-0 h-screen w-72 overflow-y-auto
+transition-transform duration-300 z-50
+${isopen ? "translate-x-0" : "-translate-x-72 md:translate-x-0"}`}
       >
          <h1 className="text-3xl font-bold p-6">
 Admin<span className="text-purple-500">Pannel</span>
@@ -317,8 +312,7 @@ text-center">Logout</li>
       )}
 
       {/* MAIN CONTENT */}
-     <div className={`w-full overflow-y-auto relative z-10 transition-all duration-300
-${isopen ? "ml-72" : "ml-0 md:ml-72"}`}>
+     <div className="w-full md:ml-72 overflow-y-auto relative z-10 transition-all duration-300">
 
         {/* NAVBAR */}
         <div className="h-20

@@ -179,7 +179,7 @@ function StudentDashboard() {
               </div>
             </div>
             <div>
-              <h1 className="text-[15px] font-bold tracking-tight text-white leading-none">
+              <h1 className="text-[10px] font-bold tracking-tight text-white leading-none">
                 Student<span className="text-blue-400">Panel</span>
               </h1>
               <p className="text-[10px] text-white/35 mt-1 tracking-[0.2em] uppercase font-medium">

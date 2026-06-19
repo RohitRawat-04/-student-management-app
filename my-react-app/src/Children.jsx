@@ -179,9 +179,9 @@ function StudentDashboard() {
               </div>
             </div>
             <div>
-              <h1 className="text-[5px] font-bold tracking-tight text-white leading-none">
+              <h2 className="text-[25px] font-bold tracking-tight text-white leading-none">
                 Student<span className="text-blue-400">Panel</span>
-              </h1>
+              </h2>
               <p className="text-[10px] text-white/35 mt-1 tracking-[0.2em] uppercase font-medium">
                 Academic Portal
               </p>

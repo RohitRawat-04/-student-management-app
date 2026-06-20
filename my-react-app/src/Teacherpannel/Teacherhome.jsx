@@ -126,9 +126,9 @@ function TeacherDashboard() {
               </div>
             </div>
             <div>
-              <h1 className="text-[15px] font-bold tracking-tight text-white leading-none">
+              <h2 className="text-[25px] font-bold tracking-tight text-white leading-none">
                 Teacher<span className="text-purple-400">Panel</span>
-              </h1>
+              </h2>
               <p className="text-[10px] text-white/35 mt-1 tracking-[0.2em] uppercase font-medium">
                 Academic Portal
               </p>
